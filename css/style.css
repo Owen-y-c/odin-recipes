@@ -10,39 +10,42 @@ ul{
 
 h1{
   text-align: center;
-  background-color: aquamarine;
+  background-color: orange;
+  color: white;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .card-container{
-  margin: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   }
   .card-container figure{
-    border: solid;
+    border: 1px solid rgba(0, 0, 0, 0.275);
+    border-radius: 7px;
     text-align: center;
     margin-top: 15px;
     width: 300px;
-    height: 350px;
+    height: 250px;
     margin-left: auto;
     margin-right: auto;
   }
     .card-container figure a{
-      border: solid;
+      text-decoration: none;
+      color:darkgoldenrod;
     }
     .card-container img{
       display: block;
-      width: 100%;
+      width: 95%;
       margin: auto;
       object-fit: cover;
-      max-height: 50%;
+      max-height: 200px;
     }
     .card-container li, .card-container img{
-      margin-top: 5px;
       margin-bottom: 10px;
+      margin-top: 7px;
+      border-radius: 7px;
 }  
 
 @media screen and (min-width: 1050px) {
