@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1{
+  text-align: center;
+  background-color: orange;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+figure{
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.125);
+  } 
+  figure img{
+    display: block;
+    width: auto;
+    margin: auto;
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 95%;
+  }
+  figcaption{
+    margin-top: 10px;
+}
+
+main{
+  margin: 15px;
+  }
+  ul, ol {
+    list-style-position: inside;
+    margin: 0;
+  }
+  button{
+    margin-top: 15px;
+    background-color: orange;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+  }
