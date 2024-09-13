@@ -21,6 +21,7 @@ figure{
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.125);
   font-size: 1.5em;
+  padding-left: 15px;
   } 
   figure img{
     display: block;
@@ -39,6 +40,7 @@ main{
   max-width: 1000px;
   margin: auto;
   font-size: 1.2em;
+  padding-left: 15px;
   }
   ul, ol {
     list-style-position: inside;
