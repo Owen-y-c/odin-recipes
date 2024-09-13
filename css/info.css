@@ -15,11 +15,12 @@ h1{
 }
 
 figure{
-  max-width: 90%;
+  max-width: 1000px;
   margin: auto;
   margin-bottom: 15px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.125);
+  font-size: 1.5em;
   } 
   figure img{
     display: block;
@@ -35,6 +36,9 @@ figure{
 
 main{
   margin: 15px;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 1.2em;
   }
   ul, ol {
     list-style-position: inside;
@@ -47,6 +51,7 @@ main{
     border-radius: 5px;
     border: none;
     padding: 5px;
+    margin-bottom: 15px;
   }
 
 li::marker{
